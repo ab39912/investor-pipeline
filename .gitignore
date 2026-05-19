@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.envrc
+
+# Data — keep raw/processed out of the repo, but keep the final exports
+data/raw/*.jsonl
+data/processed/*.jsonl
+data/processed/*.json
+
+# Keep .gitkeep markers
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# OS
+Thumbs.db
